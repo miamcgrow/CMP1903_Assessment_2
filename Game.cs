@@ -8,6 +8,8 @@ namespace CMP1903_A1_2324
 {
     internal class Game
     {
+        public int total = 0;
+        
         public void dice_Roll();
         {
             Die die1 = new Die(); /// Creates a new die object
@@ -28,10 +30,11 @@ namespace CMP1903_A1_2324
         public void dice_Display(); 
 {
             dice_Sum(); /// Calls the dice sum method
-            Console.WriteLine('Die 1:', roll1) /// Displays the die roll
-            Console.WriteLine('Die 2:', roll2) /// Displays the die roll
-            Console.WriteLine('Die 3:', roll3) /// Displays the die roll
-            Console.WriteLine('Total:', total) /// Displays the dice total
+            Console.WriteLine('Die 1:', roll1); /// Displays the die roll
+            Console.WriteLine('Die 2:', roll2); /// Displays the die roll
+            Console.WriteLine('Die 3:', roll3); /// Displays the die roll
+            Console.WriteLine('Total:', total); /// Displays the dice total
+            Console.ReadLine()
         }
     }
 }
