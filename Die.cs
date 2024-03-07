@@ -13,7 +13,7 @@ namespace CMP1903_A1_2324
         public int die_Roll(); /// Die roll method
         {
             die_Value = random.Next(1,7); /// Assigns a random integer between 1 and 6
-            return die_Value /// Returns the new die value
+            return die_Value; /// Returns the new die value
         }
     }
 }
